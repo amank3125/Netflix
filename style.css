@@ -1,0 +1,175 @@
+*{
+    /* border: 1px red solid; */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('img/bg.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    display: flex;
+    align-items:start;
+    overflow: hidden;
+    height: 90px;
+}
+.netflix-logo {
+    fill: #ff1c27;
+    line-height: 90px;
+    display: inline-block;
+    height: 100%;
+    width: 167px;
+    margin-left: 3%;
+}
+.login-form {
+    height: 560px;
+    width: 314px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 4px;
+}
+h1 {
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-size: 32px;
+}
+p {
+    color: #737373;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+}
+a {
+    color: #737373;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+}
+input {
+    display: block;
+    height: 34px;
+    width: 274px;
+    padding: 16px 20px 0px 20px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: #737373;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+}
+.sign-in {
+    height: 48px;
+    width: 314px;
+    padding: 12px;
+    margin: 24px 0px 12px 0px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    cursor: pointer;
+}
+.help-container {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    width: 100%;
+}
+input[type=checkbox] {
+    border: none;
+    border-radius: 2px;
+    height: 16px;
+    width: auto;
+    background: #737373;
+}
+.help {
+    position: relative;
+    left: 110px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #b3b3b3;
+    font-family: 'Segoe UI';
+}
+.help:hover{
+    text-decoration: underline;
+    font-size: 13px;
+    color: #b3b3b3;
+    font-family: 'Segoe UI';
+}
+.sign-up-container {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    width: 100%;
+    font-size: 16px;
+    color: #737373;
+}
+.sign-up {
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.sign-up:hover{
+    text-decoration: underline;
+}
+.footer {
+    height: 265px;
+    width: 100%;
+    margin-top: 5%;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.footer-container {
+    margin-inline:46px;
+    padding-block: 30px;
+}
+.footer .footer-container p {
+    color: #737373;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+}
+.footer-links {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 15px;
+    margin-bottom: 20px;
+}
+.footer .footer-container a {
+    color: #737373;
+    font-size: 13px;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
+.footer .footer-container a:hover{
+    text-decoration: underline;
+}
+select {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI';
+}
+select:before{
+    content: "";
+}
